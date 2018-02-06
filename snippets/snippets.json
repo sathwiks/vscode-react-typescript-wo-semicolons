@@ -2,7 +2,7 @@
 	"React Component": {
 		"prefix": "tsrcc",
 		"body": [
-			"import * as React from 'react';",
+			"import * as React from 'react'",
 			"",
 			"export interface ${1:App}Props {",
 			"}",
@@ -13,7 +13,7 @@
 			"      <div>",
 			"        ${2:}",
 			"      </div>",
-			"    );",
+			"    )",
 			"  }",
 			"}",
 			""
@@ -23,7 +23,7 @@
 	"React Component - Full": {
 		"prefix": "tsrcfull",
 		"body": [
-			"import * as React from 'react';",
+			"import * as React from 'react'",
 			"",
 			"export interface ${1:App}Props {",
 			"}",
@@ -33,7 +33,7 @@
 			"",
 			"export default class ${1:} extends React.Component<${1:}Props, ${1:}State> {",
 			"  constructor(props: ${1:}Props) {",
-			"    super(props);",
+			"    super(props)",
 			"",
 			"        this.state = {",
 			"    }",
@@ -44,7 +44,7 @@
 			"      <div>",
 			"        ${2:}",
 			"      </div>",
-			"    );",
+			"    )",
 			"  }",
 			"}",
 			""
@@ -63,7 +63,7 @@
 			"      <div>",
 			"        ${2:}",
 			"      </div>",
-			"    );",
+			"    )",
 			"  }",
 			"}",
 			""
@@ -73,7 +73,7 @@
 	"React PureComponent": {
 		"prefix": "tsrpcc",
 		"body": [
-			"import * as React from 'react';",
+			"import * as React from 'react'",
 			"",
 			"export interface ${1:App}Props {",
 			"}",
@@ -84,7 +84,7 @@
 			"      <div>",
 			"        ${2:}",
 			"      </div>",
-			"    );",
+			"    )",
 			"  }",
 			"}",
 			""
@@ -103,7 +103,7 @@
 			"      <div>",
 			"        ${2:}",
 			"      </div>",
-			"    );",
+			"    )",
 			"  }",
 			"}",
 			""
@@ -113,7 +113,7 @@
 	"React Pure Function Component": {
 		"prefix": "tsrpfc",
 		"body": [
-			"import * as React from 'react';",
+			"import * as React from 'react'",
 			"",
 			"export interface ${1:App}Props {",
 			"}",
@@ -123,7 +123,7 @@
 			"      <div>",
 			"        ${0}",
 			"      </div>",
-			"    );",
+			"    )",
 			"}",
 			""
 		],
@@ -132,16 +132,16 @@
 	"React Stateless Functional Component": {
 		"prefix": "tsrsfc",
 		"body": [
-			"import * as React from 'react';",
+			"import * as React from 'react'",
 			"",
 			"interface ${1:App}Props {$2",
 			"}",
 			"",
 			"const $1: React.SFC<$1Props> = (props) => {",
-			"  return $0;",
-			"};"
+			"  return $0",
+			"}"
 			""
-			"export default $1;"
+			"export default $1"
 		],
 		"description": "Create a React Stateless Functional Component."
 	},
@@ -149,7 +149,7 @@
 		"prefix": "conc",
 		"body": [
 			"constructor(props) {",
-			"  super(props);",
+			"  super(props)",
 			"  ${1:}",
 			"}"
 		],
@@ -170,7 +170,7 @@
 			"render() {",
 			"  return (",
 			"    ${1:}",
-			"  );",
+			"  )",
 			"}"
 		],
 		"description": "When called, it should examine this.props and this.state and return a single React element."
@@ -232,14 +232,14 @@
 	"componentSetState": {
 		"prefix": "sst",
 		"body": [
-			"this.setState(${1:});"
+			"this.setState(${1:})"
 		],
 		"description": "Performs a shallow merge of nextState into current state"
 	},
 	"bind method": {
 		"prefix": "bnd",
 		"body": [
-			"this.${1:} = this.${1:}.bind(this);"
+			"this.${1:} = this.${1:}.bind(this)"
 		],
 		"description": "bind this in method"
 	},
@@ -255,7 +255,7 @@
 	"React redux container": {
 		"prefix": "tscntr",
 		"body": [
-			"import * as React from 'react';",
+			"import * as React from 'react'",
 			"import { connect } from 'react-redux'",
 			"",
 			"export interface ${1:App}Props {",
@@ -267,16 +267,16 @@
 			"      <div>",
 			"        ${2:}",
 			"      </div>",
-			"    );",
+			"    )",
 			"  }",
 			"}",
 			"",
 			"const mapState2Props = state => {",
 			"  return {",
-			"  };",
+			"  }",
 			"}",
 			"",
-			"export default connect(mapState2Props)(${1:});",
+			"export default connect(mapState2Props)(${1:})",
 			""
 		],
 		"description": "React Redux container"
@@ -284,7 +284,7 @@
 	"import": {
 		"prefix": "imt",
 		"body": [
-			"import { $2 } from '$1';"
+			"import { $2 } from '$1'"
 		],
 		"description": "Create a import"
 	}
