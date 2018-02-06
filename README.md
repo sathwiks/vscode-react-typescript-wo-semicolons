@@ -1,4 +1,8 @@
-# vscode-react-typescript
+# vscode-react-typescript-wo-semicolons
+
+## Credits
+
+This extension was forked of [vscode-react-typescript](https://github.com/infeng/vscode-react-typescript). All credits to the original author.
 
 -------------------
 
