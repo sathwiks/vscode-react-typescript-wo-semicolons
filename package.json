@@ -1,16 +1,16 @@
 {
-  "name": "vscode-react-typescript",
-  "version": "1.0.13",
+  "name": "vscode-react-typescript-wo-semicolons",
+  "version": "1.0.0",
   "description": "Code snippets for react in typescript",
   "displayName": "Typescript React code snippets",
-  "publisher": "infeng",
+  "publisher": "shawshank",
   "icon": "images/react.png",
   "galleryBanner": {
     "theme": "light"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infeng/vscode-react-typescript.git"
+    "url": "https://github.com/sathwiks/vscode-react-typescript-wo-semicolons"
   },
   "engines": {
     "vscode": "0.10.x"
@@ -24,12 +24,12 @@
     "typescript",
     "vscode-extension"
   ],
-  "author": "infeng",
+  "author": "sathwiks",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/infeng/vscode-react-typescript/issues"
+    "url": "https://github.com/sathwiks/vscode-react-typescript-wo-semicolons/issues"
   },
-  "homepage": "https://github.com/infeng/vscode-react-typescript#readme",
+  "homepage": "https://github.com/sathwiks/vscode-react-typescript-wo-semicolons#readme",
   "contributes": {
     "snippets": [
       {
